@@ -1,0 +1,489 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA664DF617FB55AF004AED31 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA664DF517FB55AF004AED31 /* Foundation.framework */; };
+		FA664DF817FB55AF004AED31 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA664DF717FB55AF004AED31 /* CoreGraphics.framework */; };
+		FA664DFA17FB55AF004AED31 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA664DF917FB55AF004AED31 /* UIKit.framework */; };
+		FA664E0017FB55AF004AED31 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FA664DFE17FB55AF004AED31 /* InfoPlist.strings */; };
+		FA664E0217FB55AF004AED31 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FA664E0117FB55AF004AED31 /* main.m */; };
+		FA664E0617FB55AF004AED31 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FA664E0517FB55AF004AED31 /* AppDelegate.m */; };
+		FA664E0917FB55AF004AED31 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA664E0717FB55AF004AED31 /* Main_iPhone.storyboard */; };
+		FA664E0C17FB55AF004AED31 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA664E0A17FB55AF004AED31 /* Main_iPad.storyboard */; };
+		FA664E0F17FB55AF004AED31 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA664E0E17FB55AF004AED31 /* ViewController.m */; };
+		FA664E1117FB55AF004AED31 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA664E1017FB55AF004AED31 /* Images.xcassets */; };
+		FA664E1817FB55AF004AED31 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA664E1717FB55AF004AED31 /* XCTest.framework */; };
+		FA664E1917FB55AF004AED31 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA664DF517FB55AF004AED31 /* Foundation.framework */; };
+		FA664E1A17FB55AF004AED31 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA664DF917FB55AF004AED31 /* UIKit.framework */; };
+		FA664E2217FB55AF004AED31 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FA664E2017FB55AF004AED31 /* InfoPlist.strings */; };
+		FA664E2417FB55AF004AED31 /* UIScrollViewContentAccessorsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA664E2317FB55AF004AED31 /* UIScrollViewContentAccessorsTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA664E1B17FB55AF004AED31 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA664DEA17FB55AF004AED31 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA664DF117FB55AF004AED31;
+			remoteInfo = UIScrollViewContentAccessors;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FA664DF217FB55AF004AED31 /* UIScrollViewContentAccessors.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIScrollViewContentAccessors.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA664DF517FB55AF004AED31 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FA664DF717FB55AF004AED31 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FA664DF917FB55AF004AED31 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FA664DFD17FB55AF004AED31 /* UIScrollViewContentAccessors-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UIScrollViewContentAccessors-Info.plist"; sourceTree = "<group>"; };
+		FA664DFF17FB55AF004AED31 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FA664E0117FB55AF004AED31 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FA664E0317FB55AF004AED31 /* UIScrollViewContentAccessors-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIScrollViewContentAccessors-Prefix.pch"; sourceTree = "<group>"; };
+		FA664E0417FB55AF004AED31 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FA664E0517FB55AF004AED31 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FA664E0817FB55AF004AED31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		FA664E0B17FB55AF004AED31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		FA664E0D17FB55AF004AED31 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FA664E0E17FB55AF004AED31 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FA664E1017FB55AF004AED31 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FA664E1617FB55AF004AED31 /* UIScrollViewContentAccessorsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIScrollViewContentAccessorsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA664E1717FB55AF004AED31 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		FA664E1F17FB55AF004AED31 /* UIScrollViewContentAccessorsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UIScrollViewContentAccessorsTests-Info.plist"; sourceTree = "<group>"; };
+		FA664E2117FB55AF004AED31 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FA664E2317FB55AF004AED31 /* UIScrollViewContentAccessorsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIScrollViewContentAccessorsTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA664DEF17FB55AF004AED31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA664DF817FB55AF004AED31 /* CoreGraphics.framework in Frameworks */,
+				FA664DFA17FB55AF004AED31 /* UIKit.framework in Frameworks */,
+				FA664DF617FB55AF004AED31 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA664E1317FB55AF004AED31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA664E1817FB55AF004AED31 /* XCTest.framework in Frameworks */,
+				FA664E1A17FB55AF004AED31 /* UIKit.framework in Frameworks */,
+				FA664E1917FB55AF004AED31 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA664DE917FB55AF004AED31 = {
+			isa = PBXGroup;
+			children = (
+				FA664DFB17FB55AF004AED31 /* UIScrollViewContentAccessors */,
+				FA664E1D17FB55AF004AED31 /* UIScrollViewContentAccessorsTests */,
+				FA664DF417FB55AF004AED31 /* Frameworks */,
+				FA664DF317FB55AF004AED31 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA664DF317FB55AF004AED31 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA664DF217FB55AF004AED31 /* UIScrollViewContentAccessors.app */,
+				FA664E1617FB55AF004AED31 /* UIScrollViewContentAccessorsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA664DF417FB55AF004AED31 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FA664DF517FB55AF004AED31 /* Foundation.framework */,
+				FA664DF717FB55AF004AED31 /* CoreGraphics.framework */,
+				FA664DF917FB55AF004AED31 /* UIKit.framework */,
+				FA664E1717FB55AF004AED31 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FA664DFB17FB55AF004AED31 /* UIScrollViewContentAccessors */ = {
+			isa = PBXGroup;
+			children = (
+				FA664E0417FB55AF004AED31 /* AppDelegate.h */,
+				FA664E0517FB55AF004AED31 /* AppDelegate.m */,
+				FA664E0717FB55AF004AED31 /* Main_iPhone.storyboard */,
+				FA664E0A17FB55AF004AED31 /* Main_iPad.storyboard */,
+				FA664E0D17FB55AF004AED31 /* ViewController.h */,
+				FA664E0E17FB55AF004AED31 /* ViewController.m */,
+				FA664E1017FB55AF004AED31 /* Images.xcassets */,
+				FA664DFC17FB55AF004AED31 /* Supporting Files */,
+			);
+			path = UIScrollViewContentAccessors;
+			sourceTree = "<group>";
+		};
+		FA664DFC17FB55AF004AED31 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA664DFD17FB55AF004AED31 /* UIScrollViewContentAccessors-Info.plist */,
+				FA664DFE17FB55AF004AED31 /* InfoPlist.strings */,
+				FA664E0117FB55AF004AED31 /* main.m */,
+				FA664E0317FB55AF004AED31 /* UIScrollViewContentAccessors-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FA664E1D17FB55AF004AED31 /* UIScrollViewContentAccessorsTests */ = {
+			isa = PBXGroup;
+			children = (
+				FA664E2317FB55AF004AED31 /* UIScrollViewContentAccessorsTests.m */,
+				FA664E1E17FB55AF004AED31 /* Supporting Files */,
+			);
+			path = UIScrollViewContentAccessorsTests;
+			sourceTree = "<group>";
+		};
+		FA664E1E17FB55AF004AED31 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA664E1F17FB55AF004AED31 /* UIScrollViewContentAccessorsTests-Info.plist */,
+				FA664E2017FB55AF004AED31 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA664DF117FB55AF004AED31 /* UIScrollViewContentAccessors */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA664E2717FB55AF004AED31 /* Build configuration list for PBXNativeTarget "UIScrollViewContentAccessors" */;
+			buildPhases = (
+				FA664DEE17FB55AF004AED31 /* Sources */,
+				FA664DEF17FB55AF004AED31 /* Frameworks */,
+				FA664DF017FB55AF004AED31 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UIScrollViewContentAccessors;
+			productName = UIScrollViewContentAccessors;
+			productReference = FA664DF217FB55AF004AED31 /* UIScrollViewContentAccessors.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA664E1517FB55AF004AED31 /* UIScrollViewContentAccessorsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA664E2A17FB55AF004AED31 /* Build configuration list for PBXNativeTarget "UIScrollViewContentAccessorsTests" */;
+			buildPhases = (
+				FA664E1217FB55AF004AED31 /* Sources */,
+				FA664E1317FB55AF004AED31 /* Frameworks */,
+				FA664E1417FB55AF004AED31 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA664E1C17FB55AF004AED31 /* PBXTargetDependency */,
+			);
+			name = UIScrollViewContentAccessorsTests;
+			productName = UIScrollViewContentAccessorsTests;
+			productReference = FA664E1617FB55AF004AED31 /* UIScrollViewContentAccessorsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA664DEA17FB55AF004AED31 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Антон Домашнев";
+				TargetAttributes = {
+					FA664E1517FB55AF004AED31 = {
+						TestTargetID = FA664DF117FB55AF004AED31;
+					};
+				};
+			};
+			buildConfigurationList = FA664DED17FB55AF004AED31 /* Build configuration list for PBXProject "UIScrollViewContentAccessors" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA664DE917FB55AF004AED31;
+			productRefGroup = FA664DF317FB55AF004AED31 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA664DF117FB55AF004AED31 /* UIScrollViewContentAccessors */,
+				FA664E1517FB55AF004AED31 /* UIScrollViewContentAccessorsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA664DF017FB55AF004AED31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA664E0C17FB55AF004AED31 /* Main_iPad.storyboard in Resources */,
+				FA664E1117FB55AF004AED31 /* Images.xcassets in Resources */,
+				FA664E0917FB55AF004AED31 /* Main_iPhone.storyboard in Resources */,
+				FA664E0017FB55AF004AED31 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA664E1417FB55AF004AED31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA664E2217FB55AF004AED31 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA664DEE17FB55AF004AED31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA664E0F17FB55AF004AED31 /* ViewController.m in Sources */,
+				FA664E0617FB55AF004AED31 /* AppDelegate.m in Sources */,
+				FA664E0217FB55AF004AED31 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA664E1217FB55AF004AED31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA664E2417FB55AF004AED31 /* UIScrollViewContentAccessorsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA664E1C17FB55AF004AED31 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA664DF117FB55AF004AED31 /* UIScrollViewContentAccessors */;
+			targetProxy = FA664E1B17FB55AF004AED31 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FA664DFE17FB55AF004AED31 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA664DFF17FB55AF004AED31 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FA664E0717FB55AF004AED31 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA664E0817FB55AF004AED31 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		FA664E0A17FB55AF004AED31 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA664E0B17FB55AF004AED31 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		FA664E2017FB55AF004AED31 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA664E2117FB55AF004AED31 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA664E2517FB55AF004AED31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FA664E2617FB55AF004AED31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA664E2817FB55AF004AED31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UIScrollViewContentAccessors/UIScrollViewContentAccessors-Prefix.pch";
+				INFOPLIST_FILE = "UIScrollViewContentAccessors/UIScrollViewContentAccessors-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FA664E2917FB55AF004AED31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UIScrollViewContentAccessors/UIScrollViewContentAccessors-Prefix.pch";
+				INFOPLIST_FILE = "UIScrollViewContentAccessors/UIScrollViewContentAccessors-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		FA664E2B17FB55AF004AED31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/UIScrollViewContentAccessors.app/UIScrollViewContentAccessors";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UIScrollViewContentAccessors/UIScrollViewContentAccessors-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "UIScrollViewContentAccessorsTests/UIScrollViewContentAccessorsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		FA664E2C17FB55AF004AED31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/UIScrollViewContentAccessors.app/UIScrollViewContentAccessors";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UIScrollViewContentAccessors/UIScrollViewContentAccessors-Prefix.pch";
+				INFOPLIST_FILE = "UIScrollViewContentAccessorsTests/UIScrollViewContentAccessorsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA664DED17FB55AF004AED31 /* Build configuration list for PBXProject "UIScrollViewContentAccessors" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA664E2517FB55AF004AED31 /* Debug */,
+				FA664E2617FB55AF004AED31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA664E2717FB55AF004AED31 /* Build configuration list for PBXNativeTarget "UIScrollViewContentAccessors" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA664E2817FB55AF004AED31 /* Debug */,
+				FA664E2917FB55AF004AED31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FA664E2A17FB55AF004AED31 /* Build configuration list for PBXNativeTarget "UIScrollViewContentAccessorsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA664E2B17FB55AF004AED31 /* Debug */,
+				FA664E2C17FB55AF004AED31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA664DEA17FB55AF004AED31 /* Project object */;
+}
