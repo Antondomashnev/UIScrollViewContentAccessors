@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "UIScrollViewContentAccessors"
-  s.version      = "1.0"
+  s.version      = "1.0.2"
   s.summary      = "Easy access to UIScrollView\'s content properties."
   s.description  = %{
     You can access contentOffsetX, contentOffsetY, contentInsetTop, contentInsetLeft, contentInsetBottom, contentInsetRight, contentWidth or contentHeight like properties.
