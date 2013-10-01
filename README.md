@@ -8,7 +8,7 @@ Use
 scrollView.contentInsetTop = 150;
 ```
 
-to change scrollView contentInset.top instead of
+to change scrollView.contentInset.top instead of
 
 ```objective-c
 UIEdgeInset newInset = scrollView.contentInset;
